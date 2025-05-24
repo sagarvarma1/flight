@@ -1,3 +1,3 @@
-# Yeager Companion App
+# Demo 
 
-A demo I have prepared for the Enhanced Radar Company of San Fransisco. 
+A demo I have prepared for the Enhanced Radar Company of San Francisco. 
