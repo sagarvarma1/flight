@@ -1,0 +1,322 @@
+[
+  {
+    "callsign": "DAL123",
+    "lat": 37.621308,
+    "lon": -122.378868,
+    "altitude": 9000,
+    "heading": 50,
+    "speed": 200,
+    "status": "holding",
+    "origin": "SEA",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.620045,
+      -122.381933
+    ],
+    "trail": [
+      [
+        37.622833,
+        -122.38047
+      ],
+      [
+        37.620247,
+        -122.379371
+      ],
+      [
+        37.619553,
+        -122.379931
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:29:23",
+    "highlighted": false
+  },
+  {
+    "callsign": "UAL456",
+    "lat": 37.629371,
+    "lon": -122.359532,
+    "altitude": 3000,
+    "heading": 22,
+    "speed": 227,
+    "status": "departing",
+    "origin": "SEA",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.624112,
+      -122.37476
+    ],
+    "trail": [
+      [
+        37.629874,
+        -122.360428
+      ],
+      [
+        37.62822,
+        -122.359603
+      ],
+      [
+        37.63108,
+        -122.360764
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:28:07",
+    "highlighted": false
+  },
+  {
+    "callsign": "SWA789",
+    "lat": 37.613238,
+    "lon": -122.364972,
+    "altitude": 5000,
+    "heading": 57,
+    "speed": 182,
+    "status": "approaching",
+    "origin": "LAX",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.619852,
+      -122.377251
+    ],
+    "trail": [
+      [
+        37.612383,
+        -122.365176
+      ],
+      [
+        37.613911,
+        -122.365842
+      ],
+      [
+        37.612058,
+        -122.364302
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:29:27",
+    "highlighted": true
+  },
+  {
+    "callsign": "JBU101",
+    "lat": 37.625291,
+    "lon": -122.359469,
+    "altitude": 4000,
+    "heading": 70,
+    "speed": 275,
+    "status": "landing",
+    "origin": "LAS",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.61797,
+      -122.382228
+    ],
+    "trail": [
+      [
+        37.626294,
+        -122.360968
+      ],
+      [
+        37.626764,
+        -122.359485
+      ],
+      [
+        37.623743,
+        -122.358243
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:28:32",
+    "highlighted": false
+  },
+  {
+    "callsign": "ASA202",
+    "lat": 37.615885,
+    "lon": -122.397798,
+    "altitude": 5000,
+    "heading": 72,
+    "speed": 207,
+    "status": "departing",
+    "origin": "LAS",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.623501,
+      -122.374241
+    ],
+    "trail": [
+      [
+        37.614761,
+        -122.395807
+      ],
+      [
+        37.617722,
+        -122.398611
+      ],
+      [
+        37.617756,
+        -122.397318
+      ]
+    ],
+    "conflict": true,
+    "lastUpdated": "18:29:29",
+    "highlighted": false
+  },
+  {
+    "callsign": "AAL330",
+    "lat": 37.631102,
+    "lon": -122.385053,
+    "altitude": 5000,
+    "heading": 72,
+    "speed": 212,
+    "status": "approaching",
+    "origin": "DEN",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.623409,
+      -122.380254
+    ],
+    "trail": [
+      [
+        37.631568,
+        -122.385677
+      ],
+      [
+        37.632645,
+        -122.383087
+      ],
+      [
+        37.631224,
+        -122.386495
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:28:35",
+    "highlighted": false
+  },
+  {
+    "callsign": "FFT808",
+    "lat": 37.60706,
+    "lon": -122.368135,
+    "altitude": 4000,
+    "heading": 231,
+    "speed": 228,
+    "status": "landing",
+    "origin": "DEN",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.622981,
+      -122.383415
+    ],
+    "trail": [
+      [
+        37.60858,
+        -122.369078
+      ],
+      [
+        37.606358,
+        -122.370129
+      ],
+      [
+        37.606081,
+        -122.366915
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:28:39",
+    "highlighted": false
+  },
+  {
+    "callsign": "NKS302",
+    "lat": 37.613872,
+    "lon": -122.394853,
+    "altitude": 4000,
+    "heading": 145,
+    "speed": 246,
+    "status": "approaching",
+    "origin": "PHX",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.61821,
+      -122.378757
+    ],
+    "trail": [
+      [
+        37.614776,
+        -122.3935
+      ],
+      [
+        37.615522,
+        -122.393587
+      ],
+      [
+        37.615319,
+        -122.396197
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:28:56",
+    "highlighted": false
+  },
+  {
+    "callsign": "SKW115",
+    "lat": 37.628771,
+    "lon": -122.381156,
+    "altitude": 9000,
+    "heading": 358,
+    "speed": 250,
+    "status": "approaching",
+    "origin": "PHX",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.617575,
+      -122.377631
+    ],
+    "trail": [
+      [
+        37.630484,
+        -122.381979
+      ],
+      [
+        37.627764,
+        -122.382447
+      ],
+      [
+        37.628527,
+        -122.381983
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:29:26",
+    "highlighted": false
+  },
+  {
+    "callsign": "VOI601",
+    "lat": 37.605375,
+    "lon": -122.380138,
+    "altitude": 4000,
+    "heading": 241,
+    "speed": 222,
+    "status": "landing",
+    "origin": "SEA",
+    "destination": "SFO",
+    "nextWaypoint": [
+      37.620393,
+      -122.381458
+    ],
+    "trail": [
+      [
+        37.603929,
+        -122.380032
+      ],
+      [
+        37.607323,
+        -122.37993
+      ],
+      [
+        37.606346,
+        -122.381975
+      ]
+    ],
+    "conflict": false,
+    "lastUpdated": "18:28:13",
+    "highlighted": true
+  }
+]

@@ -5,9 +5,367 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Auth Pages Styling - Minimalist Design */
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+}
+
+.auth-card {
+  max-width: 400px;
+  width: 100%;
+  background: transparent;
+  padding: 2rem;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.auth-title {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  font-family: serif;
+}
+
+.auth-subtitle {
+  display: none; /* Hide subtitle for minimalist look */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #000000;
+  border-radius: 0;
+  font-size: 1rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: inherit;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.form-input::placeholder {
+  color: #999999;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border-radius: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background-color 0.2s ease;
+}
+
+.btn-primary {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #333333;
+}
+
+.btn-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.btn-danger {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn-danger:hover {
+  background-color: #333333;
+}
+
+/* Pill-shaped logout button */
+.btn-pill {
+  width: auto;
+  padding: 0.5rem 1.5rem;
+  border: 2px solid #000000;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: inherit;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.2s ease;
+}
+
+.btn-pill:hover {
+  background-color: #f5f5f5;
+}
+
+.error-message {
+  background-color: #fff5f5;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 1rem;
+  border-radius: 0;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.auth-link a {
+  color: #000000;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.auth-link a:hover {
+  color: #333333;
+}
+
+/* Dashboard Styling */
+.dashboard {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 2px solid #000000;
+  padding: 1rem 0;
+}
+
+.navbar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000000;
+  margin: 0;
+  font-family: serif;
+}
+
+.navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-email {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard-placeholder {
+  border: 2px solid #000000;
+  border-radius: 0;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.placeholder-content h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #000000;
+  margin: 0 0 1rem 0;
+  font-family: serif;
+}
+
+.placeholder-content p {
+  color: #666666;
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Loading */
+.loading-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.loading-text {
+  font-size: 1.25rem;
+  color: #000000;
+}
+
+/* Button Styles */
+.btn-pill {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-pill:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Form Styles */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #000000;
+  font-family: serif;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+.form-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.form-button:hover {
+  background-color: #333333;
+}
+
+.form-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: #dc2626;
+  text-align: center;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #dc2626;
+  background-color: #fef2f2;
+}
+
+/* Aircraft Map Styles */
+.aircraft-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.highlighted-aircraft {
+  background: transparent !important;
+  border: none !important;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Map Tooltip Styles */
+.leaflet-tooltip {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  font-size: 12px !important;
+  padding: 4px 8px !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: white !important;
+  border: 2px solid #000000 !important;
+  border-radius: 0 !important;
+}
+
+.leaflet-popup-tip {
+  background-color: white !important;
+  border: 1px solid #000000 !important;
 }

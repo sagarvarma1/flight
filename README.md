@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+# Yeager Companion App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based ATC (Air Traffic Control) Companion application with Firebase authentication.
 
-## Available Scripts
+## Features Implemented (Step 1)
 
-In the project directory, you can run:
+✅ **Authentication System**
+- Firebase Authentication integration
+- User registration and login
+- Protected routes
+- Authentication state management with React Context
+- Clean, modern UI with custom CSS styling
 
-### `npm start`
+## Setup Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- A Firebase project (for authentication)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `npm test`
+1. **Clone and Install Dependencies**
+   ```bash
+   cd yeager
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Configure Firebase**
+   - Create a Firebase project at [https://console.firebase.google.com/](https://console.firebase.google.com/)
+   - Enable Authentication with Email/Password provider
+   - Copy your Firebase configuration
+   - Update `src/firebase/config.js` with your Firebase credentials:
 
-### `npm run build`
+   ```javascript
+   const firebaseConfig = {
+     apiKey: "your-actual-api-key",
+     authDomain: "your-project.firebaseapp.com",
+     projectId: "your-actual-project-id",
+     storageBucket: "your-project.appspot.com",
+     messagingSenderId: "your-actual-sender-id",
+     appId: "your-actual-app-id"
+   };
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Run the Application**
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   The app will open at [http://localhost:3000](http://localhost:3000)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Application Structure
 
-### `npm run eject`
+```
+src/
+├── components/
+│   └── ProtectedRoute.js     # Route protection component
+├── contexts/
+│   └── AuthContext.js        # Authentication context and provider
+├── firebase/
+│   └── config.js            # Firebase initialization
+├── pages/
+│   ├── Login.js             # Login page
+│   ├── Signup.js            # Registration page
+│   └── Dashboard.js         # Main dashboard (placeholder)
+├── App.js                   # Main app with routing
+└── index.css                # Global styles
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Authentication Flow
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Unauthenticated users** are redirected to `/login`
+2. **New users** can register via `/signup`
+3. **Authenticated users** access the main dashboard at `/dashboard`
+4. **Route protection** ensures only authenticated users access protected routes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Next Steps
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The following features will be implemented in subsequent steps:
+- Application state management with Zustand
+- Transcript feed simulation
+- Message parsing system
+- Conflict detection logic
+- Aircraft map with Leaflet
+- Real-time data integration
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **React** - Frontend framework
+- **React Router** - Routing and navigation
+- **Firebase Authentication** - User authentication
+- **CSS3** - Custom styling (no external CSS frameworks)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Development Notes
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The app uses Firebase Authentication for user management
+- Custom CSS provides a clean, modern interface
+- React Context manages authentication state
+- Protected routes ensure security
+- Responsive design works on desktop and mobile devices

@@ -1,0 +1,632 @@
+[
+  {
+    "timestamp": "13:00:00",
+    "callsign": "VOI601",
+    "message": "VOI601, turn right heading 288"
+  },
+  {
+    "timestamp": "13:00:06",
+    "callsign": "DAL123",
+    "message": "DAL123, descend and maintain 9000"
+  },
+  {
+    "timestamp": "13:00:18",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared to land runway 01R"
+  },
+  {
+    "timestamp": "13:00:20",
+    "callsign": "FFT808",
+    "message": "FFT808, descend and maintain 9000"
+  },
+  {
+    "timestamp": "13:00:24",
+    "callsign": "SKW115",
+    "message": "SKW115, climb and maintain 9000"
+  },
+  {
+    "timestamp": "13:00:25",
+    "callsign": "SWA789",
+    "message": "SWA789, turn right heading 268"
+  },
+  {
+    "timestamp": "13:00:40",
+    "callsign": "UAL456",
+    "message": "UAL456, turn left heading 162"
+  },
+  {
+    "timestamp": "13:00:42",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:00:50",
+    "callsign": "JBU101",
+    "message": "JBU101, turn right heading 328"
+  },
+  {
+    "timestamp": "13:01:00",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:01:00",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:01:10",
+    "callsign": "SKW115",
+    "message": "SKW115, cleared for takeoff runway 01L"
+  },
+  {
+    "timestamp": "13:01:15",
+    "callsign": "SKW115",
+    "message": "SKW115, descend and maintain 9000"
+  },
+  {
+    "timestamp": "13:01:30",
+    "callsign": "DAL123",
+    "message": "DAL123, climb and maintain 3000"
+  },
+  {
+    "timestamp": "13:01:38",
+    "callsign": "AAL330",
+    "message": "AAL330, climb and maintain 3000"
+  },
+  {
+    "timestamp": "13:01:39",
+    "callsign": "SKW115",
+    "message": "SKW115, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:01:40",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:01:40",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:01:42",
+    "callsign": "NKS302",
+    "message": "NKS302, climb and maintain 4000"
+  },
+  {
+    "timestamp": "13:01:44",
+    "callsign": "ASA202",
+    "message": "ASA202, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:01:44",
+    "callsign": "ASA202",
+    "message": "ASA202, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:01:50",
+    "callsign": "JBU101",
+    "message": "JBU101, climb and maintain 5000"
+  },
+  {
+    "timestamp": "13:01:52",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared for takeoff runway 01R"
+  },
+  {
+    "timestamp": "13:01:52",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared for takeoff runway 01R"
+  },
+  {
+    "timestamp": "13:02:10",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared to land runway 01R"
+  },
+  {
+    "timestamp": "13:02:10",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared to land runway 01R"
+  },
+  {
+    "timestamp": "13:02:27",
+    "callsign": "AAL330",
+    "message": "AAL330, turn right heading 262"
+  },
+  {
+    "timestamp": "13:02:45",
+    "callsign": "ASA202",
+    "message": "ASA202, turn left heading 124"
+  },
+  {
+    "timestamp": "13:02:48",
+    "callsign": "FFT808",
+    "message": "FFT808, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:02:48",
+    "callsign": "FFT808",
+    "message": "FFT808, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:02:51",
+    "callsign": "DAL123",
+    "message": "DAL123, climb and maintain 4000"
+  },
+  {
+    "timestamp": "13:03:00",
+    "callsign": "ASA202",
+    "message": "ASA202, turn right heading 193"
+  },
+  {
+    "timestamp": "13:03:00",
+    "callsign": "SWA789",
+    "message": "SWA789, turn right heading 174"
+  },
+  {
+    "timestamp": "13:03:12",
+    "callsign": "FFT808",
+    "message": "FFT808, descend and maintain 7000"
+  },
+  {
+    "timestamp": "13:03:23",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:03:23",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:03:35",
+    "callsign": "UAL456",
+    "message": "UAL456, turn left heading 323"
+  },
+  {
+    "timestamp": "13:03:36",
+    "callsign": "NKS302",
+    "message": "NKS302, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:03:36",
+    "callsign": "NKS302",
+    "message": "NKS302, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:03:50",
+    "callsign": "ASA202",
+    "message": "ASA202, descend and maintain 4000"
+  },
+  {
+    "timestamp": "13:03:54",
+    "callsign": "UAL456",
+    "message": "UAL456, climb and maintain 5000"
+  },
+  {
+    "timestamp": "13:04:00",
+    "callsign": "SWA789",
+    "message": "SWA789, turn right heading 276"
+  },
+  {
+    "timestamp": "13:04:03",
+    "callsign": "SWA789",
+    "message": "SWA789, turn right heading 290"
+  },
+  {
+    "timestamp": "13:04:08",
+    "callsign": "ASA202",
+    "message": "ASA202, turn right heading 268"
+  },
+  {
+    "timestamp": "13:04:10",
+    "callsign": "DAL123",
+    "message": "DAL123, cleared to land runway 28R"
+  },
+  {
+    "timestamp": "13:04:10",
+    "callsign": "DAL123",
+    "message": "DAL123, cleared to land runway 28R"
+  },
+  {
+    "timestamp": "13:04:19",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared to land runway 28R"
+  },
+  {
+    "timestamp": "13:04:19",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared to land runway 28R"
+  },
+  {
+    "timestamp": "13:04:40",
+    "callsign": "AAL330",
+    "message": "AAL330, turn left heading 333"
+  },
+  {
+    "timestamp": "13:04:40",
+    "callsign": "FFT808",
+    "message": "FFT808, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:04:50",
+    "callsign": "NKS302",
+    "message": "NKS302, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:04:50",
+    "callsign": "NKS302",
+    "message": "NKS302, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:04:54",
+    "callsign": "JBU101",
+    "message": "JBU101, descend and maintain 9000"
+  },
+  {
+    "timestamp": "13:05:00",
+    "callsign": "VOI601",
+    "message": "VOI601, cleared for takeoff runway 01R"
+  },
+  {
+    "timestamp": "13:05:00",
+    "callsign": "VOI601",
+    "message": "VOI601, cleared for takeoff runway 01R"
+  },
+  {
+    "timestamp": "13:05:15",
+    "callsign": "ASA202",
+    "message": "ASA202, climb and maintain 9000"
+  },
+  {
+    "timestamp": "13:05:20",
+    "callsign": "FFT808",
+    "message": "FFT808, descend and maintain 9000"
+  },
+  {
+    "timestamp": "13:05:30",
+    "callsign": "AAL330",
+    "message": "AAL330, turn left heading 353"
+  },
+  {
+    "timestamp": "13:05:40",
+    "callsign": "VOI601",
+    "message": "VOI601, turn left heading 314"
+  },
+  {
+    "timestamp": "13:05:42",
+    "callsign": "DAL123",
+    "message": "DAL123, turn right heading 190"
+  },
+  {
+    "timestamp": "13:05:52",
+    "callsign": "FFT808",
+    "message": "FFT808, turn left heading 293"
+  },
+  {
+    "timestamp": "13:06:08",
+    "callsign": "FFT808",
+    "message": "FFT808, descend and maintain 4000"
+  },
+  {
+    "timestamp": "13:06:11",
+    "callsign": "SKW115",
+    "message": "SKW115, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:06:11",
+    "callsign": "SKW115",
+    "message": "SKW115, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:06:12",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:06:20",
+    "callsign": "ASA202",
+    "message": "ASA202, cleared to land runway 01L"
+  },
+  {
+    "timestamp": "13:06:20",
+    "callsign": "ASA202",
+    "message": "ASA202, cleared to land runway 01L"
+  },
+  {
+    "timestamp": "13:06:48",
+    "callsign": "SWA789",
+    "message": "SWA789, turn left heading 282"
+  },
+  {
+    "timestamp": "13:06:50",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:06:50",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:07:03",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared to land runway 28R"
+  },
+  {
+    "timestamp": "13:07:07",
+    "callsign": "UAL456",
+    "message": "UAL456, descend and maintain 4000"
+  },
+  {
+    "timestamp": "13:07:12",
+    "callsign": "NKS302",
+    "message": "NKS302, descend and maintain 7000"
+  },
+  {
+    "timestamp": "13:07:20",
+    "callsign": "AAL330",
+    "message": "AAL330, climb and maintain 7000"
+  },
+  {
+    "timestamp": "13:07:21",
+    "callsign": "AAL330",
+    "message": "AAL330, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:07:30",
+    "callsign": "DAL123",
+    "message": "DAL123, turn right heading 305"
+  },
+  {
+    "timestamp": "13:07:36",
+    "callsign": "ASA202",
+    "message": "ASA202, turn right heading 239"
+  },
+  {
+    "timestamp": "13:07:45",
+    "callsign": "JBU101",
+    "message": "JBU101, descend and maintain 4000"
+  },
+  {
+    "timestamp": "13:08:00",
+    "callsign": "AAL330",
+    "message": "AAL330, descend and maintain 5000"
+  },
+  {
+    "timestamp": "13:08:00",
+    "callsign": "ASA202",
+    "message": "ASA202, cleared to land runway 01L"
+  },
+  {
+    "timestamp": "13:08:00",
+    "callsign": "JBU101",
+    "message": "JBU101, climb and maintain 3000"
+  },
+  {
+    "timestamp": "13:08:00",
+    "callsign": "NKS302",
+    "message": "NKS302, climb and maintain 9000"
+  },
+  {
+    "timestamp": "13:08:00",
+    "callsign": "ASA202",
+    "message": "ASA202, cleared to land runway 01L"
+  },
+  {
+    "timestamp": "13:08:05",
+    "callsign": "SWA789",
+    "message": "SWA789, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:08:05",
+    "callsign": "SWA789",
+    "message": "SWA789, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:08:06",
+    "callsign": "NKS302",
+    "message": "NKS302, turn left heading 198"
+  },
+  {
+    "timestamp": "13:08:06",
+    "callsign": "FFT808",
+    "message": "FFT808, climb and maintain 3000"
+  },
+  {
+    "timestamp": "13:08:12",
+    "callsign": "UAL456",
+    "message": "UAL456, climb and maintain 9000"
+  },
+  {
+    "timestamp": "13:08:17",
+    "callsign": "NKS302",
+    "message": "NKS302, climb and maintain 5000"
+  },
+  {
+    "timestamp": "13:08:24",
+    "callsign": "DAL123",
+    "message": "DAL123, turn left heading 148"
+  },
+  {
+    "timestamp": "13:08:24",
+    "callsign": "VOI601",
+    "message": "VOI601, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:08:24",
+    "callsign": "VOI601",
+    "message": "VOI601, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:08:30",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:08:30",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:08:38",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:08:38",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:08:40",
+    "callsign": "FFT808",
+    "message": "FFT808, climb and maintain 4000"
+  },
+  {
+    "timestamp": "13:08:40",
+    "callsign": "SKW115",
+    "message": "SKW115, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:08:40",
+    "callsign": "SKW115",
+    "message": "SKW115, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:08:51",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:08:51",
+    "callsign": "UAL456",
+    "message": "UAL456, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:08:59",
+    "callsign": "DAL123",
+    "message": "DAL123, turn left heading 280"
+  },
+  {
+    "timestamp": "13:09:06",
+    "callsign": "SWA789",
+    "message": "SWA789, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:09:06",
+    "callsign": "NKS302",
+    "message": "NKS302, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:09:06",
+    "callsign": "NKS302",
+    "message": "NKS302, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:09:06",
+    "callsign": "SWA789",
+    "message": "SWA789, cleared for takeoff runway 28R"
+  },
+  {
+    "timestamp": "13:10:03",
+    "callsign": "SKW115",
+    "message": "SKW115, turn right heading 189"
+  },
+  {
+    "timestamp": "13:10:09",
+    "callsign": "VOI601",
+    "message": "VOI601, descend and maintain 3000"
+  },
+  {
+    "timestamp": "13:10:30",
+    "callsign": "SKW115",
+    "message": "SKW115, cleared for takeoff runway 28L"
+  },
+  {
+    "timestamp": "13:11:05",
+    "callsign": "VOI601",
+    "message": "VOI601, descend and maintain 4000"
+  },
+  {
+    "timestamp": "13:11:15",
+    "callsign": "JBU101",
+    "message": "JBU101, turn left heading 181"
+  },
+  {
+    "timestamp": "13:11:20",
+    "callsign": "SWA789",
+    "message": "SWA789, turn right heading 354"
+  },
+  {
+    "timestamp": "13:11:28",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:11:28",
+    "callsign": "JBU101",
+    "message": "JBU101, cleared to land runway 28L"
+  },
+  {
+    "timestamp": "13:11:30",
+    "callsign": "NKS302",
+    "message": "NKS302, cleared for takeoff runway 01L"
+  },
+  {
+    "timestamp": "13:11:30",
+    "callsign": "NKS302",
+    "message": "NKS302, cleared for takeoff runway 01L"
+  },
+  {
+    "timestamp": "13:11:33",
+    "callsign": "JBU101",
+    "message": "JBU101, climb and maintain 4000"
+  },
+  {
+    "timestamp": "13:11:51",
+    "callsign": "JBU101",
+    "message": "JBU101, turn left heading 235"
+  },
+  {
+    "timestamp": "13:12:10",
+    "callsign": "DAL123",
+    "message": "DAL123, descend and maintain 5000"
+  },
+  {
+    "timestamp": "13:12:27",
+    "callsign": "JBU101",
+    "message": "JBU101, turn right heading 234"
+  },
+  {
+    "timestamp": "13:13:12",
+    "callsign": "FFT808",
+    "message": "FFT808, climb and maintain 5000"
+  },
+  {
+    "timestamp": "13:13:30",
+    "callsign": "VOI601",
+    "message": "VOI601, turn right heading 165"
+  },
+  {
+    "timestamp": "13:14:50",
+    "callsign": "VOI601",
+    "message": "VOI601, descend and maintain 5000"
+  },
+  {
+    "timestamp": "13:15:20",
+    "callsign": "ASA202",
+    "message": "ASA202, climb and maintain 4000"
+  },
+  {
+    "timestamp": "13:15:40",
+    "callsign": "AAL330",
+    "message": "AAL330, turn left heading 345"
+  },
+  {
+    "timestamp": "13:16:20",
+    "callsign": "SWA789",
+    "message": "SWA789, turn right heading 248"
+  }
+]
